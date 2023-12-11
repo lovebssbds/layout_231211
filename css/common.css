@@ -92,6 +92,7 @@ nav{
     overflow: hidden;
     transition:0.5s; */
     display:none;
+    z-index: 10;
 }
 .drop a{
     display:inline-block;
@@ -136,7 +137,7 @@ nav{
 .slide img{
     width:100%;
 }
-.slider-group>button{
+.slider-group button{
     width:30px;
     height: 30px;
     position:absolute;
@@ -152,8 +153,8 @@ nav{
     align-items: center;
 }
 .nextbt{
-    left: inherit;
-    right:20px;
+    left: inherit !important;
+    right: 20px !important;
 }
 .n-b-s{
     width:100%;
